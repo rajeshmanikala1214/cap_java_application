@@ -22,7 +22,6 @@ node_modules/
 
 .mta/
 *.mtar
-mta.yaml
 
 *.log*
 gc_history*
