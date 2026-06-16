@@ -129,10 +129,10 @@
           </execution>
           <execution>
             <id>report</id>
-            <phase>verify</phase>
             <goals>
               <goal>report</goal>
             </goals>
+            <phase>verify</phase>
             <configuration>
               <formats>
                 <format>XML</format>
@@ -141,7 +141,7 @@
           </execution>
         </executions>
       </plugin>
-      
+
       <!-- POM FLATTENING FOR CI FRIENDLY VERSIONS -->
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
